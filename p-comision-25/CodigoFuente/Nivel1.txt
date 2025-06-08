@@ -1,0 +1,53 @@
+#Nivel 1
+M 9 5  # Moneda
+M 10 5  # Moneda
+M 11 5  # Moneda
+M 12 5  # Moneda
+M 13 5  # Moneda
+M 14 5  # Moneda
+M 15 5  # Moneda
+
+Pl5 20 #vacio
+Pl5 21 #vacio
+Pl5 22 #vacio
+
+LI Pl2 Pl2 Pl2 Pl2 LD 25 4 #plataforma 
+LI Pl2 Pl2 Pl2  LD 26 5 #plataforma 
+LI Pl2 Pl2  LD 27 6 #plataforma 
+LI Pl2 LD 28 7 #plataforma 
+
+M 30 8  # Moneda
+
+En1 35 #enemigo
+En1 40 #enemigo
+
+LI Pl2 Pl2  Pl2 Pl4 Pl2 Pl2 Pl2  En1  Pl2 LD 38 7 #plataforma
+
+LI Pl2  Pl2  Pl2 Pl4 Pl2 Pl2 Pl2  En1  Pl2 LD 6 7 #plataforma
+
+LI Pl2 Pl4 Pl2  LD 40 10 #plataforma
+
+Pl5 48 #vacio
+Pl5 49 #vacio
+
+LI Pl2 Pl2 En1 Pl2  Pl2 LD 53 7 #plataforma con enemigo
+
+LI Pl2 Pl2 Pl2 Pl2 Pl2 Pl2  LD 58 10 #plataforma 
+
+LI Pl2 Pl2 LD 64 9 #plataforma 
+LI Pl2 Pl2 LD 66 8 #plataforma 
+LI Pl2 Pl2 LD 68 7 #plataforma 
+LI Pl2 Pl2 LD 70 6 #plataforma 
+LI Pl2 Pl2 LD 72 5 #plataforma 
+
+M 59 11  # Moneda
+M 60 11  # Moneda
+M 61 11  # Moneda
+M 62 11  # Moneda
+
+
+M 66 9  # Moneda
+M 68 7  # Moneda
+
+
+PlF 80 #Fin de Nivel

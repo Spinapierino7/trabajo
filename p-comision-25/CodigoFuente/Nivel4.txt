@@ -1,0 +1,36 @@
+#Nivel 4
+
+LI Pl2 Pl2 Pl4 Pl4 Pl4 Pl2 Pl2 LD 5 6
+
+LI Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 LD 16 4 #piso
+LI Pl1 En1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 LD 16 5
+
+LI Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 LD 13 9 #techo tunel
+LI Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 En6 Pl1 Pl1 Pl1 En6 Pl1 Pl1 LD 13 10
+
+M 32 6
+M 33 7
+M 34 8
+M 35 7
+M 36 6
+
+
+Pl3 41 #TUBERIA
+
+En5 47 
+
+LI Pl2 Pl2 Pl2 Pl2 Pl2 Pl2 Pl2 Pl2 Pl2 Pl2 Pl2 LD 46 8
+
+LI Pl2 Pl4 Pl4 Pl4 Pl2 LD 50 11
+
+Pl5 60 #vacio
+Pl5 61 
+Pl5 62
+
+LI Pl4 Pl2 Pl2 Pl2 Pl4 Pl4 Pl2 Pl2 LD 65 6
+
+LI Pl1 En2 Pl1 Pl1 LD 74 8
+
+En1 70
+
+PlF 85 #bloque final

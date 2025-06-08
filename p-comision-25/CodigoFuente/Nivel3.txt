@@ -1,0 +1,45 @@
+#Nivel 3
+M 5 5
+M 8 5
+M 11 5
+M 14 5
+
+#tuberias
+Pl3T 18 5
+Pl3 19 5
+
+
+LI Pl1 Pl1 Pl1 Pl1 En2 Pl1 Pl2 Pl2 LD 26 9
+
+En2 27
+
+Pl5 40 #vacio
+Pl5 41 #vacio
+Pl5 42 #vacio
+
+LI Pl2 Pl4 Pl2 Pl2 Pl4 Pl1 Pl2 Pl2 LD 30 12
+
+LI Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 LD 40 15
+
+M 42 16
+M 44 16
+M 46 16
+
+LI Pl1 Pl1 Pl1 En1 Pl1 Pl1 En1 Pl1 LD 45 10
+
+LI Pl1 Pl1 Pl4 Pl4 En4 Pl1 Pl1 Pl2 Pl1 Pl4 LD 50 7  #plataforma
+
+Pl5 55 #vacio
+Pl5 56 #vacio
+Pl5 57 #vacio
+
+Pl3 67
+M 68 5
+
+LI Pl2 Pl2 Pl2 Pl2 Pl2 Pl2 LD 70 8
+
+M 72 9
+M 73 9
+M 74 9
+
+PlF 90 #Fin de Nivel

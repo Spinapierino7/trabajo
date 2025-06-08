@@ -1,0 +1,25 @@
+
+LI  Pl1 Pl1  Pl1 Pl1 Pl1  En2 En2 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 Pl1 LD 12 6 #plataforma de unico bloque power upss
+Pl3 4
+
+LI  Pl2 Pl2 Pl2 Pl2 En1 En1 Pl2 Pl2 Pl2 Pl2 Pl2 LD 60 9  #plataforma de unico bloque power ups
+
+LI  Pl2 Pl2 Pl2 Pl2 En3 En3  Pl2 Pl2 Pl2 Pl2 Pl2 LD 63 11  #plataforma de unico bloque power ups
+
+LI Pl4 Pl4 Pl4 Pl4 En4 En4 Pl4 Pl4 Pl4 Pl4 Pl4 LD 50 6  #plataforma de unico bloque power ups
+
+Pl3T 65 4
+
+Pl3T 67 5
+
+Pl3T 70 6
+
+Pl5 30
+
+Pl5 31
+
+Pl5 32
+
+Pl5 33
+
+PlF 90 #Fin de Nivel

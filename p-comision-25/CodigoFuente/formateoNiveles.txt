@@ -1,0 +1,71 @@
+
+LI Pl4Pw1  LD 9 6 #plataforma de unico bloque power ups
+
+
+
+LI Pl2 Pl4Pw1 Pl2 Pl4Pw1 Pl2 LD 13 6 #plataforma mixta con ladrillos y power ups
+
+LI Pl4Pw1 LD 15 9 #plataforma de PowerUps
+
+En1 13 #Enemigo
+
+En1 15  #Enemigo
+
+LI En2 En2 Pl2 Pl2 En2 Pl2 Pl2 LD 26 10 #plataforma con enemigos
+
+LI En6 Pl2 LD 35 12 #plataforma con enemigos
+
+LI Pl4Pw1 LD 30 6 #plataforma con pwup
+
+Pl5 21 #vacio
+Pl5 22 #vacio
+Pl5 23 #vacio
+Pl5 24 #vacio
+
+
+
+En3 35 #enemigo
+
+En4 38 #enemigo
+
+En5 41 #enemigo
+
+En6 44 #enemigo
+
+
+
+PlF 90 #Fin de Nivel
+
+nivel nuevo
+# Enemigos en el suelo
+En1 15    # Goomba en X=15
+En2 25    # Koopa Troopa en X=25
+En1 45    # Goomba en X=45
+En3 55    # Lakitu en X=55
+
+# Plataforma elevada con un enemigo encima
+LI Pl1 En2 LD 70 6  # Plataforma de Bloque Sólido en (70, 6) con un Koopa Troopa encima
+
+# Plataforma elevada con bloque de pregunta y power-up
+LI Pl2Pw1 LD 100 6  # Plataforma de Ladrillo Sólido en (100, 6) con un SuperChampiñón
+
+# Plataforma larga con enemigos y bloques de pregunta
+LI Pl1 En1 Pl1 En1 Pl1 En1 Pl1 Pl2 Pw3 LD 130 6  # Plataforma de Bloque Sólido en (130, 6), tres Goombas y un bloque de pregunta con Flor de Fuego
+
+# Monedas en diferentes posiciones
+M 20 7  # Moneda en (20, 7)
+M 35 7  # Moneda en (35, 7)
+M 60 7  # Moneda en (60, 7)
+
+# Tubería con planta Piranha
+LI Pl3T LD 150 4  # Tubería con planta Piranha en (150, 4)
+
+# Enemigos en el suelo y una plataforma de ladrillo elevada
+En4 170      # Spiny en X=170
+LI Pl2 LD 180 6 # Plataforma de Ladrillo en (180, 6)
+
+# Plataforma con bloques de pregunta
+LI Pl2Pw2 Pl2Pw4 LD 210 8  # Plataforma con Estrella y Champiñón Verde en (210, 8)
+
+# Bloque final del juego
+PlF 240  # Bloque de castillo final en X=240

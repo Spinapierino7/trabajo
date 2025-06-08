@@ -1,0 +1,42 @@
+#Nivel 2
+LI Pl2 Pl4 Pl2 Pl4 Pl2 LD 13 6 #plataforma
+
+LI Pl4 LD 15 9 #plataforma de PowerUps
+
+En1 13 #Enemigo
+
+En1 15  #Enemigo
+
+Pl5 21 #vacio
+Pl5 22 #vacio
+Pl5 23 #vacio
+Pl5 24 #vacio
+
+LI Pl4 LD 30 6 #plataforma con pwup
+
+LI Pl2 Pl2 En2 Pl2 Pl2 LD 35 10 #plataforma con enemigo
+
+LI Pl2 Pl2 Pl2 Pl2 LD 42 12 #plataforma 
+
+LI Pl2 Pl2 Pl2 Pl2 En6 Pl2 Pl2 Pl2 LD 50 12 #plataforma con enemigos
+
+En3 35 #enemigo
+
+En6 38 #enemigo
+
+Pl5 53 #vacio
+Pl5 54 #vacio
+Pl5 55 #vacio
+En5 56 #enemigo
+
+En5 60 #enemigo
+
+M 60 5  # Moneda
+M 62 6  # Moneda
+M 64 7  # Moneda
+M 66 8  # Moneda
+M 68 7  # Moneda
+M 70 6  # Moneda
+M 72 5  # Moneda
+
+PlF 80 #Fin de Nivel
